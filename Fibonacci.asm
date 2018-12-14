@@ -1,22 +1,23 @@
 ; Fibonacci sequence
 
 	JMP main
-a:
-	DB 0 ; 
-b:
+first:
+	DB 0
+second:
 	DB 1
+swap:
+	DB 0
 
 main:
-	MOV A, [a]	
-	ADD A, [b]
-	MOV [a], A
-	
-	; print A
+	; Print second
+.loop:
+	; print first
 
-	MOV B, [b]
-	ADD B, [a]
-	MOV [b], B
-	
-	; print B
+	MOV A, [first]	
+	ADD A, [second]
+	MOV B, [second]
+	MOV [first], B
+	MOV [second], A
 
-	SUB 
+	JNC .loop
+	HLT
