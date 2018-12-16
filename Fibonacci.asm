@@ -19,22 +19,21 @@ second:
 	DB 0
 
 print:		; printing to console
-	MOV D, [4]	; hundreds place
+	MOV D, [hundreds]	; hundreds place
 	SHR D, 4	; shift to ones place
 	ADD D, 48	; change to ascii
 	MOV [232], D
 
-	MOV D, [3]	; tens place
+	MOV D, [tens]	; tens place
 	SHR D, 4	; shift to ones place
 	ADD D, 48	; change to ascii
 	MOV [233], D
 
-	MOV D, [2]	; ones place
+	MOV D, [ones]	; ones place
 	SHR D, 4	; shift to ones place
 	ADD D, 48	; change to ascii
 	MOV [234], D
 	RET
-
 
 shift:
 	MOV A, [hundreds]	;shift nibble
