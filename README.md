@@ -9,7 +9,7 @@ https://schweigi.github.io/assembler-simulator/index.html
 
 ## Instructions
 
-paste project code from [Fibonacci.asm](./Fibonacci.asm) into the [code section of the simulator](https://i.imgur.com/UZ5j3Rn.png)
+Paste project code from [Fibonacci.asm](./Fibonacci.asm) into the [code section of the simulator](https://i.imgur.com/UZ5j3Rn.png)
 
 Hit reset at the top and then press run at the top to start the program.
 
