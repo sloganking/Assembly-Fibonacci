@@ -15,4 +15,4 @@ Hit reset at the top and then press run at the top to start the program.
 
 ## Notes
 
-- It is hightly suggested to [turn the simulator clock speed to 16 hz](https://i.imgur.com/BSKkctX.png)
+- It is hightly recommended to [turn the simulator clock speed to 16 hz](https://i.imgur.com/BSKkctX.png)
